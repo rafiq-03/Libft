@@ -1,4 +1,4 @@
-<img src="imag.png" />
+<img src="image.jpg" />
 <h1>libft</h1>
     <p>
         <code>libft</code> is a custom implementation of a subset of the C standard library functions, developed as part of the 42 school curriculum. The project aims to deepen understanding of fundamental C programming concepts and standard library mechanisms by reconstructing    commonly used functions from scratch. By the end of this project, students will have built a robust and reusable library that can be utilized in future projects.
