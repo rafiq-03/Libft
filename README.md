@@ -1,32 +1,20 @@
-<img src="image.jpg" />
-<h1>libft</h1>
-    <p>
-        <code>libft</code> is a custom implementation of a subset of the C standard library functions, developed as part of the 42 school curriculum. The project aims to deepen understanding of fundamental C programming concepts and standard library mechanisms by reconstructing    commonly used functions from scratch. By the end of this project, students will have built a robust and reusable library that can be utilized in future projects.
-    </p>
-<h2>Overview</h2>
-<p>
-    This library includes a variety of functions that handle strings, memory manipulation, character checking and transformation, input/output operations, and more. It also provides a foundation for creating more complex data structures and algorithms.
-</p>
+ <h1>Libft - 42 Project</h1>
+    <p>Libft is a foundational project at 42 that involves creating a custom C library. It helps students build a solid understanding of standard library functions by implementing them from scratch. The project is designed to strengthen your skills in memory management, algorithms, and data structures, providing reusable functions for future projects.</p>
 
-<h3>Key Features</h3>
-<ul>
-    <li><strong>Memory Management</strong>: Functions for memory allocation, copying, setting, and comparison.</li>
-    <li><strong>String Manipulation</strong>: Functions for string copying, concatenation, searching, and length calculation.</li>
-    <li><strong>Character Checks</strong>: Functions to check character types (e.g., alpha, digit, print).</li>
-    <li><strong>Conversions</strong>: Functions to convert strings to integers.</li>
-    <li><strong>Input/Output</strong>: Functions to output characters and strings to the standard output or file descriptors.</li>
-</ul>
+    <h2>Project Details</h2>
+    <form>
+        <label for="student-name">Your Name:</label><br>
+        <input type="text" id="student-name" name="student-name" placeholder="Enter your name"><br><br>
 
-<h3>Example Functions</h3>
-<ul>
-    <li>ft_memset</li>
-    <li>ft_bzero</li>
-    <li>ft_memcpy</li>
-    <li>ft_strlen</li>
-    <li>ft_strdup</li>
-    <li>ft_strcpy</li>
-    <li>ft_atoi</li>
-    <li>ft_isalpha</li>
-    <li>ft_putchar</li>
-    <li>ft_putstr</li>
-</ul>
+        <label for="project-status">Project Status:</label><br>
+        <select id="project-status" name="project-status">
+            <option value="in-progress">In Progress</option>
+            <option value="completed">Completed</option>
+            <option value="not-started">Not Started</option>
+        </select><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your comments here"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
